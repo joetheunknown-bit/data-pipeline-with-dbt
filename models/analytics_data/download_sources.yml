@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: ingested_data
+    database: defaultdb
+    schema: ecommerce_download
+    tables:
+      - name: ecommerce_data
+        columns:
+          - name: price
+          - name: quantity
+          - name: order_id
+          - name: order_date
+          - name: product_name
+          - name: product_brand
+          - name: product_category
